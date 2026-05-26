@@ -1,0 +1,164 @@
+.header{
+    height : 55px;
+    background-color: white;
+    display : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    position : fixed;
+    top : 0;
+    left : 0;
+    right : 0;
+   border-bottom-width : 1px;
+   border-bottom-style : solid;
+   border-bottom-color : rgba(224, 219, 219, 0.649);
+   z-index : 20;
+    
+}
+.menu{
+    height : 20px;
+    margin-left : 24px;
+    margin-right : 20px;
+}
+.youtube{
+    height : 32px;
+}
+.left-section{
+   align-items : center;
+   
+   display : flex;
+}
+.middle-section{
+   
+    flex : 1;
+    flex-direction : row;
+    margin-left : 70px;
+    margin-right : 35px;
+    max-width : 550px;
+    display : flex;
+    align-items : center;
+}
+.search{
+    flex : 1;
+    height : 34px;
+    padding-left : 10px;
+    font-size: 16px;
+    border-width : 1px;
+    border-style : solid;
+    border-color : rgba(192, 192, 192, 0.7);
+    border-radius : 2px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+    width : 0;
+
+}
+.search::placeholder{
+    font-family: Roboto,arial;
+    font-size: 16px;
+
+}
+.sicon{
+    height :38px;
+    width : 60px;
+    border-width : 1px;
+    border-style : solid;
+    border-color : rgba(192, 192, 192, 0.724);
+    border-radius : 2px;
+    background-color : white;
+    margin-left : -1px;
+    margin-right : 8px;
+   
+}
+.sicon .tool,
+.micon .tool,
+.nicon .tool{
+    position : absolute;
+    background-color: gray;
+    color : white;
+    padding-left : 8px;
+    padding-right : 8px;
+    padding-top : 4px;
+    padding-bottom : 4px;
+    border-radius: 2px;
+    font-size : 12px;
+    bottom : -34px;
+    left : 0px;
+    opacity : 0;
+    transition : opacity 0.25s;
+    pointer-events : none;
+    white-space: nowrap;
+}
+.sicon , .micon , .nicon{
+    align-items: center;
+    display : flex;
+    justify-content: center;
+     position : relative;
+}
+.sicon:hover .tool,
+.micon:hover .tool,
+.nicon:hover .tool{
+    opacity : 1;
+}
+.spic{
+    height :15px;
+    width : 15px;
+}
+.micon{
+  height : 40px;
+  width : 40px;
+  border-radius : 20px;
+  border : none;
+  background-color : rgba(216, 207, 207, 0.219);
+ 
+ 
+}
+
+.mpic{
+     height : 20px;
+     width : 15px;
+    
+}
+.right-section{
+    margin-top:5px;
+    flex-shrink : 0;
+    margin-right : 20px;
+    width : 200px;
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items : center;
+
+
+}
+.belli{
+   width : 30px;
+   height : 30px;
+   color: red;
+}
+.nicon{
+    position : relative;
+}
+.num{
+    position:absolute;
+    top : -5px;
+    right : -7px;
+    background-color: rgb(219, 44, 47);
+    color : white;
+    font-family : Roboto,arial;
+    font-size : 12px;
+    border-radius : 12px;
+    padding-left : 6px;
+    padding-right : 6px;
+    padding-top : 2px;
+    padding-bottom : 2px;
+
+}
+.upload{
+
+   width : 40px;
+   height : 20px;
+}
+.profile{
+   width : 30px;
+   height : 30px;
+   margin-right:20px;
+   border-radius : 20px;
+}
