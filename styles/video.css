@@ -49,8 +49,9 @@
             
         }
         .china{
-            font-size : 14px;
-            font-weight : bold;
+            font-size : 15px;
+             font-family : Roboto,Arial;
+             font-weight : 400;
             line-height : 20px;
             margin-bottom : 20px;
             margin-left : 3px;
@@ -58,6 +59,7 @@
         }
         .edit{
             width : 40px;
+            border-radius : 20px;
         }
         .edit1{
             width : 40px;

@@ -14,6 +14,7 @@
    z-index : 20;
     
 }
+
 .menu{
     height : 20px;
     margin-left : 24px;
@@ -67,9 +68,9 @@
     margin-right : 8px;
    
 }
-.sicon .tool,
-.micon .tool,
-.nicon .tool{
+
+
+.sicon .tool{
     position : absolute;
     background-color: gray;
     color : white;
@@ -86,6 +87,41 @@
     pointer-events : none;
     white-space: nowrap;
 }
+.micon .tool2
+{
+    position : absolute;
+    background-color: gray;
+    color : white;
+    padding-left : 8px;
+    padding-right : 8px;
+    padding-top : 4px;
+    padding-bottom : 4px;
+    border-radius: 2px;
+    font-size : 12px;
+    bottom : -34px;
+    left : -50px;
+    opacity : 0;
+    transition : opacity 0.25s;
+    pointer-events : none;
+    white-space: nowrap;
+}
+.nicon .tool{
+     position : absolute;
+    background-color: gray;
+    color : white;
+    padding-left : 8px;
+    padding-right : 8px;
+    padding-top : 4px;
+    padding-bottom : 4px;
+    border-radius: 2px;
+    font-size : 12px;
+    bottom : -34px;
+    left : -25px;
+    opacity : 0;
+    transition : opacity 0.25s;
+    pointer-events : none;
+    white-space: nowrap;
+}
 .sicon , .micon , .nicon{
     align-items: center;
     display : flex;
@@ -93,9 +129,11 @@
      position : relative;
 }
 .sicon:hover .tool,
-.micon:hover .tool,
 .nicon:hover .tool{
     opacity : 1;
+}
+.micon:hover .tool2{
+    opacity :1;
 }
 .spic{
     height :15px;
@@ -153,8 +191,8 @@
 }
 .upload{
 
-   width : 40px;
-   height : 20px;
+   width : 100px;
+   height : 40px;
 }
 .profile{
    width : 30px;

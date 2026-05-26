@@ -3,13 +3,13 @@
     left : 0;
     bottom : 0;
     top : 55px;
-    width : 100px;
+    width : 80px;
     background-color: white;
     z-index: 200;
     padding-top:6px;
 }
 .sidebar-link{
-    height: 100px;
+    height: 80px;
     display : flex;
     flex-direction : column;
     justify-content: center;
@@ -20,12 +20,12 @@
     background-color: rgb(235,235,235);
 }
 .sidebar-link img {
-    height : 50px;
-    width : 60px;
+    height : 30px;
+    width : 40px;
     margin-bottom : 4px;
 }
 .sidebar-link div{
     font-family: Roboto,Arial;
-    font-size: 13px;
+    font-size: 11px;
     
 }
